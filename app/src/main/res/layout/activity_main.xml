@@ -1,0 +1,78 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFFF">
+
+    <!-- Title TextView -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="QR Code Scanner"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="32dp"
+        android:textColor="#333333" />
+
+    <!-- Title EditText with label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Title"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="4dp"
+        android:textColor="#555555" />
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Title"
+        android:focusable="false"
+        android:padding="14dp"
+        android:layout_marginBottom="16dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="14sp"
+        android:textColor="#333333" />
+
+    <!-- Website EditText with label -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Website"
+        android:textSize="16sp"
+        android:layout_marginBottom="4dp"
+        android:layout_marginStart="4dp"
+        android:textColor="#555555" />
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Website"
+        android:focusable="false"
+        android:padding="14dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:drawable/edit_text"
+        android:textSize="14sp"
+        android:textColor="#333333" />
+
+    <!-- Scan QR Code Button -->
+    <Button
+        android:id="@+id/buttonScan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SCAN QR CODE"
+        android:padding="16dp"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        android:background="#03DAC5"
+        android:textColor="#FFFFFF"
+        android:elevation="4dp"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
